@@ -1,0 +1,39 @@
+title: Werkhuizen Beckers - Metaalbewerking op maat
+email: info@werkhuizenbeckers.be
+description: >-
+  Lasmaatwerk in staal, inox en aluminium voor industrie, machinebouw, technische toepassingen en particulieren.
+url: "https://werkhuizenbeckers.be"
+baseurl: ""
+lang: nl-BE
+markdown: kramdown
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projecten/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      seo_type: CreativeWork
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - scripts
+
+plugins:
+  - jekyll-sitemap
