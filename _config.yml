@@ -1,7 +1,7 @@
-title: Werkhuizen Beckers - Metaalbewerking op maat
+title: Werkhuizen Beckers - Industrieel onderhoud, retrofit & machinebouw
 email: info@werkhuizenbeckers.be
 description: >-
-  Lasmaatwerk in staal, inox en aluminium voor industrie, machinebouw, technische toepassingen en particulieren.
+  Uw technische partner voor industrieel onderhoud, retrofit en machinebouw. Machine én besturing van één leverancier: laswerk, constructie, PLC-programmatie en software-integratie.
 url: "https://werkhuizenbeckers.be"
 baseurl: ""
 lang: nl-BE
@@ -10,7 +10,11 @@ permalink: pretty
 
 collections:
   projects:
-    output: true
+    # Projecten staan voorlopig uit tot er B2B-referenties beschikbaar zijn.
+    # Weer inschakelen: zet output op true, herstel de Projecten-links in
+    # _includes/header.html en _includes/footer.html, en maak projecten.md opnieuw
+    # aan (layout: projects, permalink: /projecten/).
+    output: false
     permalink: /projecten/:name/
 
 defaults:
