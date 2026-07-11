@@ -1,37 +1,37 @@
 ---
 layout: home
 title: Home
-description: Metaalbewerking op maat in staal, inox en aluminium voor industrie, machinebouw, technische toepassingen en particuliere projecten.
+description: Werkhuizen Beckers is uw technische partner voor industrieel onderhoud, retrofit en machinebouw — machine én besturing van één leverancier.
 ---
 
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
       <p class="eyebrow">Werkhuizen Beckers</p>
-      <h1>Metaalbewerking op maat met een strakke uitvoering en duidelijke aanpak.</h1>
+      <h1>Eén technische partner voor machine én besturing.</h1>
       <p class="hero-intro">
-        Wij realiseren maatwerk in staal, inox en aluminium voor industrie, machinebouw, technische toepassingen en particuliere projecten. 
-        Van enkel stuk tot kleine reeks, altijd met focus op functionaliteit, afwerking en betrouwbaarheid.
+        Van storing tot nieuwe productielijn: wij combineren laswerk en constructie met PLC-programmatie en software-integratie.
+        U hoeft geen mechanische aannemer, een automatiseerder en een software-integrator te coördineren — dat doen wij intern.
       </p>
 
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Offerte aanvragen</a>
-        <a class="button button-secondary" href="{{ '/projecten/' | relative_url }}">Bekijk projecten</a>
+        <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Bekijk diensten</a>
       </div>
 
       <ul class="hero-points">
-        <li>Staal, inox en aluminium</li>
-        <li>Van idee of schets tot uitvoering</li>
-        <li>Voor bedrijven én particulieren</li>
+        <li>VCA VOL</li>
+        <li>BA4 / BA5</li>
+        <li>Heftruck- &amp; hoogtewerkerattest</li>
       </ul>
     </div>
 
     <div class="hero-panel">
       <div class="hero-card">
-        <span class="hero-card-label">Praktisch maatwerk</span>
-        <h2>Geen overbodige franjes. Wel degelijk werk dat klopt.</h2>
+        <span class="hero-card-label">Eén aanspreekpunt</span>
+        <h2>Geen drie leveranciers. Wel één partner die machine en besturing samenbrengt.</h2>
         <p>
-          We denken mee over materiaalkeuze, constructie, afmetingen en afwerking, zodat het eindresultaat niet alleen mooi oogt maar ook technisch logisch is.
+          Van analyse en ontwerp tot constructie, programmatie en inbedrijfstelling — bij ons in dezelfde hand.
         </p>
       </div>
     </div>
@@ -43,83 +43,82 @@ description: Metaalbewerking op maat in staal, inox en aluminium voor industrie,
     <div class="section-heading">
       <div>
         <p class="eyebrow">Diensten</p>
-        <h2>Maatwerk voor uiteenlopende toepassingen</h2>
+        <h2>Van eerste storing tot volledige productielijn</h2>
       </div>
       <p class="section-lead">
-        Elke aanvraag vertrekt vanuit gebruik, omgeving en gewenste afwerking. Zo krijg je een oplossing die technisch én praktisch juist zit.
+        Drie pijlers, telkens met dezelfde technische partner erachter — voor Maintenance, Production en Technical Managers die geen tijd hebben om leveranciers te coördineren.
       </p>
     </div>
 
     <div class="card-grid">
       <article class="info-card">
-        <h3>Staalconstructies op maat</h3>
-        <p>Stevige en functionele oplossingen voor dragende constructies, frames, steunen, werkstukken en specifieke toepassingen.</p>
+        <h3>Storingen &amp; industrieel onderhoud</h3>
+        <p>Snelle interventie bij defecten en preventief onderhoud, zodat uw installaties productief blijven. De laagdrempelige eerste stap in de samenwerking.</p>
       </article>
 
       <article class="info-card">
-        <h3>Inox maatwerk</h3>
-        <p>Ideaal wanneer afwerking, hygiëne, corrosiebestendigheid en duurzaamheid een belangrijke rol spelen.</p>
+        <h3>Retrofit &amp; modernisering</h3>
+        <p>Bestaande machines krijgen een nieuwe besturing, aandrijving of veiligheidsniveau, zonder de kost van volledige vervanging.</p>
       </article>
 
       <article class="info-card">
-        <h3>Aluminium maatwerk</h3>
-        <p>Licht, sterk en geschikt voor toepassingen waar gewicht, verwerkbaarheid en nette afwerking belangrijk zijn.</p>
+        <h3>Machinebouw &amp; automatisatie</h3>
+        <p>Nieuwe machines of productielijnen, van mechanisch ontwerp tot PLC/HMI-programmatie en integratie in uw MES/ERP-omgeving.</p>
       </article>
+    </div>
 
-      <article class="info-card">
-        <h3>Herstellingen en aanpassingen</h3>
-        <p>Ook voor het aanpassen, herstellen of verbeteren van bestaande metalen onderdelen of constructies.</p>
-      </article>
-
-      <article class="info-card">
-        <h3>Enkele stuks en kleine reeksen</h3>
-        <p>Interessant voor prototypes, éénmalige oplossingen of beperkte producties waar flexibiliteit nodig is.</p>
-      </article>
-
-      <article class="info-card">
-        <h3>Technisch meedenken</h3>
-        <p>Heb je enkel een idee, schets of voorbeeld? Dan denken we mee over uitvoering, materiaalkeuze en haalbaarheid.</p>
-      </article>
+    <div class="section-actions">
+      <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Alle diensten bekijken</a>
     </div>
   </div>
 </section>
 
-<section class="section section-dark" id="werkwijze">
+<section class="section section-dark" id="aanpak">
   <div class="container">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Werkwijze</p>
-        <h2>Van aanvraag tot afgewerkt resultaat</h2>
+        <p class="eyebrow">Aanpak</p>
+        <h2>Een helder traject, geen verrassingen</h2>
       </div>
       <p class="section-lead">
-        We houden het traject helder, zodat je snel weet wat mogelijk is en waarop je kan rekenen.
+        Van technische analyse tot nazorg na inbedrijfstelling — u weet op elk moment wat er gebeurt en waarom.
       </p>
     </div>
 
     <div class="steps-grid">
       <article class="step-card">
         <span class="step-number">01</span>
-        <h3>Bespreking van je vraag</h3>
-        <p>Je bezorgt ons een plan, schets, foto of omschrijving van wat je nodig hebt.</p>
+        <h3>Analyse</h3>
+        <p>Technische opname van installatie, storing of vraag ter plaatse.</p>
       </article>
 
       <article class="step-card">
         <span class="step-number">02</span>
-        <h3>Technische inschatting</h3>
-        <p>We bekijken afmetingen, toepassing, materiaal en de meest logische uitvoering.</p>
+        <h3>Ontwerp &amp; offerte</h3>
+        <p>Concreet voorstel voor mechanica, besturing en planning.</p>
       </article>
 
       <article class="step-card">
         <span class="step-number">03</span>
-        <h3>Duidelijke offerte</h3>
-        <p>Je ontvangt een voorstel op maat, afgestemd op de vraag en gewenste afwerking.</p>
+        <h3>Constructie &amp; programmatie</h3>
+        <p>Laswerk, montage en PLC/HMI-software door hetzelfde team.</p>
       </article>
 
       <article class="step-card">
         <span class="step-number">04</span>
-        <h3>Uitvoering met zorg</h3>
-        <p>We werken nauwkeurig af en focussen op een duurzaam en praktisch eindresultaat.</p>
+        <h3>Inbedrijfstelling</h3>
+        <p>Testen, afstellen en opleveren op locatie.</p>
       </article>
+
+      <article class="step-card">
+        <span class="step-number">05</span>
+        <h3>Nazorg</h3>
+        <p>Ondersteuning en onderhoud na oplevering.</p>
+      </article>
+    </div>
+
+    <div class="section-actions">
+      <a class="button button-secondary" href="{{ '/aanpak/' | relative_url }}">Volledige aanpak bekijken</a>
     </div>
   </div>
 </section>
@@ -128,60 +127,28 @@ description: Metaalbewerking op maat in staal, inox en aluminium voor industrie,
   <div class="container">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Waarom kiezen voor ons</p>
-        <h2>Rechttoe rechtaan samenwerken</h2>
+        <p class="eyebrow">Waarom één partner</p>
+        <h2>Minder coördinatie, meer verantwoordelijkheid</h2>
       </div>
       <p class="section-lead">
-        Je zoekt geen marketingverhaal, maar iemand die correct werk levert en helder communiceert. Precies daarop leggen wij de nadruk.
+        Wanneer machine en besturing bij dezelfde partij liggen, verdwijnt de discussie over wiens verantwoordelijkheid een probleem is.
       </p>
     </div>
 
     <div class="feature-strip">
       <div class="feature-item">
-        <strong>Duidelijke communicatie</strong>
-        <span>Heldere afspraken en realistische verwachtingen.</span>
+        <strong>Eén contactpersoon</strong>
+        <span>Van mechanisch ontwerp tot softwarematige inbedrijfstelling.</span>
       </div>
       <div class="feature-item">
-        <strong>Degelijke uitvoering</strong>
-        <span>Focus op kwaliteit, functionaliteit en afwerking.</span>
+        <strong>Geen overdrachtsproblemen</strong>
+        <span>Constructie en besturing worden samen ontworpen, niet na elkaar aangepast.</span>
       </div>
       <div class="feature-item">
-        <strong>Flexibel maatwerk</strong>
-        <span>Van één stuk tot kleine reeks, aangepast aan je project.</span>
+        <strong>Directe technische communicatie</strong>
+        <span>Heldere afspraken, realistische planning, geen marketingverhaal.</span>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section" id="projecten">
-  <div class="container">
-    <div class="section-heading">
-      <div>
-        <p class="eyebrow">Projecten</p>
-        <h2>Recente realisaties</h2>
-      </div>
-      <p class="section-lead">
-        Een selectie van projecten die tonen hoe we materiaal, toepassing en afwerking samenbrengen in functioneel maatwerk.
-      </p>
-    </div>
-
-    {% assign featured_projects = site.projects | sort: 'title' %}
-    {% if featured_projects.size > 0 %}
-      <div class="projects-grid">
-        {% for project in featured_projects limit: 6 %}
-          {% include project-card.html project=project %}
-        {% endfor %}
-      </div>
-
-      <div class="section-actions">
-        <a class="button button-secondary" href="{{ '/projecten/' | relative_url }}">Alle projecten bekijken</a>
-      </div>
-    {% else %}
-      <div class="empty-state">
-        <h3>Nog geen projecten zichtbaar</h3>
-        <p>Voeg een projectmap toe in <code>assets/projects/</code> met foto's en eventueel een <code>README.md</code>. Daarna verschijnt het project automatisch op de site.</p>
-      </div>
-    {% endif %}
   </div>
 </section>
 
@@ -189,9 +156,9 @@ description: Metaalbewerking op maat in staal, inox en aluminium voor industrie,
   <div class="container cta-box">
     <div>
       <p class="eyebrow">Contact</p>
-      <h2>Een project in gedachten?</h2>
+      <h2>Storing, retrofit of nieuw project?</h2>
       <p>
-        Stuur gerust een foto, schets, plan of korte omschrijving door. Dan bekijken we samen wat technisch en praktisch de beste oplossing is.
+        Beschrijf uw situatie en wij bekijken samen wat technisch de beste aanpak is — voor mechanica én besturing.
       </p>
     </div>
 
