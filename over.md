@@ -11,7 +11,7 @@ description: Werkhuizen Beckers, opgericht door Lander Beckers, industrieel inge
     <div class="prose-block">
       <h2>Achtergrond</h2>
       <p>
-        Werkhuizen Beckers is de eenmanszaak van <strong>Lander Beckers</strong>, industrieel ingenieur Elektronica-ICT (UHasselt),
+        Werkhuizen Beckers BV is opgericht door <strong>Lander Beckers</strong>, industrieel ingenieur Elektronica-ICT (UHasselt),
         gevestigd in Gingelom, Limburg.
       </p>
       <p>
