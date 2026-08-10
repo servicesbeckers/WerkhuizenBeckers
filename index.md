@@ -1,22 +1,23 @@
 ---
 layout: home
 title: Home
-description: Werkhuizen Beckers is uw technische partner voor industrieel onderhoud, retrofit en machinebouw — machine én besturing van één leverancier.
+description: Werkhuizen Beckers is uw B2B-partner voor laswerk en constructie, CAD-engineering met Autodesk Inventor, machinebouw en automatisatie, en zwaar onderhoud — machine én besturing van één leverancier.
 ---
 
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Werkhuizen Beckers</p>
-      <h1>Eén technische partner voor machine én besturing.</h1>
+      <p class="eyebrow">Werkhuizen Beckers · B2B</p>
+      <h1>Laswerk, engineering en machinebouw uit één hand.</h1>
       <p class="hero-intro">
-        Van storing tot nieuwe productielijn: wij combineren laswerk en constructie met PLC-programmatie en software-integratie.
-        U hoeft geen mechanische aannemer, een automatiseerder en een software-integrator te coördineren — dat doen wij intern.
+        Uw technische partner voor de industrie: van laswerk en constructie over CAD-engineering en machinebouw
+        tot zwaar onderhoud. Omdat wij ook de besturing beheersen, komen machine én software van dezelfde partij —
+        u coördineert geen drie leveranciers.
       </p>
 
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Offerte aanvragen</a>
-        <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Bekijk diensten</a>
+        <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Bekijk de vier pijlers</a>
       </div>
 
       <ul class="hero-points">
@@ -29,9 +30,9 @@ description: Werkhuizen Beckers is uw technische partner voor industrieel onderh
     <div class="hero-panel">
       <div class="hero-card">
         <span class="hero-card-label">Eén aanspreekpunt</span>
-        <h2>Geen drie leveranciers. Wel één partner die machine en besturing samenbrengt.</h2>
+        <h2>Mechanica en besturing samengebracht, niet na elkaar aan elkaar geknoopt.</h2>
         <p>
-          Van analyse en ontwerp tot constructie, programmatie en inbedrijfstelling — bij ons in dezelfde hand.
+          Van ontwerp en constructie tot programmatie en inbedrijfstelling — bij ons in dezelfde hand.
         </p>
       </div>
     </div>
@@ -42,33 +43,43 @@ description: Werkhuizen Beckers is uw technische partner voor industrieel onderh
   <div class="container">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Diensten</p>
-        <h2>Van eerste storing tot volledige productielijn</h2>
+        <p class="eyebrow">De vier pijlers</p>
+        <h2>Vier disciplines, één technische partner</h2>
       </div>
       <p class="section-lead">
-        Drie pijlers, telkens met dezelfde technische partner erachter — voor Maintenance, Production en Technical Managers die geen tijd hebben om leveranciers te coördineren.
+        Elke pijler staat op zich, maar wint aan waarde omdat constructie, engineering en besturing bij dezelfde
+        partij liggen — voor Maintenance, Production en Technical Managers die geen leveranciers willen coördineren.
       </p>
     </div>
 
-    <div class="card-grid">
+    <div class="card-grid pillars">
       <article class="info-card">
-        <h3>Storingen &amp; industrieel onderhoud</h3>
-        <p>Snelle interventie bij defecten en preventief onderhoud, zodat uw installaties productief blijven. De laagdrempelige eerste stap in de samenwerking.</p>
+        <span class="card-index">01 — Laswerken</span>
+        <h3>Laswerken &amp; constructie</h3>
+        <p>Maatwerk in staal, rvs en aluminium — MIG/MAG, TIG en elektrode. Frames, dragende constructies en herstellingen, van los stuk tot kleine serie.</p>
       </article>
 
       <article class="info-card">
-        <h3>Retrofit &amp; modernisering</h3>
-        <p>Bestaande machines krijgen een nieuwe besturing, aandrijving of veiligheidsniveau, zonder de kost van volledige vervanging.</p>
+        <span class="card-index">02 — CAD</span>
+        <h3>CAD-engineering (Autodesk Inventor)</h3>
+        <p>CAD op maat, van enkele beugels tot een volledige machine in regie. 3D-ontwerp, productieklare tekeningen en reverse-engineering — los of als basis voor onze eigen machinebouw.</p>
       </article>
 
       <article class="info-card">
+        <span class="card-index">03 — Machinebouw</span>
         <h3>Machinebouw &amp; automatisatie</h3>
-        <p>Nieuwe machines of productielijnen, van mechanisch ontwerp tot PLC/HMI-programmatie en integratie in uw MES/ERP-omgeving.</p>
+        <p>Nieuwe machines en productielijnen, van mechanisch ontwerp tot PLC/HMI-besturing, robotica en koppeling met uw bedrijfssoftware.</p>
+      </article>
+
+      <article class="info-card">
+        <span class="card-index">04 — Onderhoud</span>
+        <h3>Zwaar onderhoud &amp; herstelling</h3>
+        <p>Ingrijpende herstellingen: van een gebroken pers volledig mechanisch reviseren tot een zwaar gecrashte machine mechanisch, elektrisch én programmatisch weer operationeel maken. Geen routine-smeerbeurten.</p>
       </article>
     </div>
 
     <div class="section-actions">
-      <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Alle diensten bekijken</a>
+      <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Alle pijlers in detail</a>
     </div>
   </div>
 </section>
@@ -131,7 +142,8 @@ description: Werkhuizen Beckers is uw technische partner voor industrieel onderh
         <h2>Minder coördinatie, meer verantwoordelijkheid</h2>
       </div>
       <p class="section-lead">
-        Wanneer machine en besturing bij dezelfde partij liggen, verdwijnt de discussie over wiens verantwoordelijkheid een probleem is.
+        Wat een gewone lasser of constructeur niet kan: wij beheersen ook de besturing. Ligt machine én software
+        bij dezelfde partij, dan verdwijnt de discussie over wiens verantwoordelijkheid een probleem is.
       </p>
     </div>
 
@@ -156,7 +168,7 @@ description: Werkhuizen Beckers is uw technische partner voor industrieel onderh
   <div class="container cta-box">
     <div>
       <p class="eyebrow">Contact</p>
-      <h2>Storing, retrofit of nieuw project?</h2>
+      <h2>Laswerk, machine of ingrijpend onderhoud?</h2>
       <p>
         Beschrijf uw situatie en wij bekijken samen wat technisch de beste aanpak is — voor mechanica én besturing.
       </p>

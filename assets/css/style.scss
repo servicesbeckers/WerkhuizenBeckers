@@ -452,6 +452,20 @@ main {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.card-grid.pillars {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card-index {
+    display: block;
+    margin-bottom: 0.9rem;
+    color: var(--rust-strong);
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-size: 0.82rem;
+    letter-spacing: 0.06em;
+}
+
 .steps-grid {
     grid-template-columns: repeat(5, minmax(0, 1fr));
 }
@@ -895,6 +909,16 @@ main {
     padding-top: 1rem;
     border-top: 1px solid var(--line);
 }
+
+    .footer-bottom p {
+        margin: 0;
+    }
+
+    .footer-legal {
+        margin-top: 0.5rem !important;
+        font-size: 0.8rem;
+        color: var(--muted);
+    }
 
 .empty-state {
     padding: 2rem;

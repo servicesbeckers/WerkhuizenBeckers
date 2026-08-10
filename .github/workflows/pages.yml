@@ -33,9 +33,6 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Generate project pages from project folders
-        run: python3 scripts/generate_projects.py
-
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:

@@ -14,7 +14,7 @@ description: De aanpak van Werkhuizen Beckers voor storingen, retrofit en machin
         <h2>Van analyse tot nazorg</h2>
       </div>
       <p class="section-lead">
-        Elk project doorloopt dezelfde vijf stappen, ongeacht of het om een storing, een retrofit of een nieuwe machine gaat.
+        Elk project doorloopt dezelfde vijf stappen, of het nu om laswerk, een ontwerp, een nieuwe machine of een ingrijpende herstelling gaat.
       </p>
     </div>
 

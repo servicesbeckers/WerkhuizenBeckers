@@ -1,29 +1,15 @@
-title: Werkhuizen Beckers - Industrieel onderhoud, retrofit & machinebouw
+title: Werkhuizen Beckers - Laswerk, CAD, machinebouw & zwaar onderhoud
 email: info@werkhuizenbeckers.be
 description: >-
-  Uw technische partner voor industrieel onderhoud, retrofit en machinebouw. Machine én besturing van één leverancier: laswerk, constructie, PLC-programmatie en software-integratie.
+  B2B-partner voor industrie en machinebouw: laswerk en constructie, CAD-engineering met Autodesk Inventor,
+  machinebouw en automatisatie, en zwaar onderhoud en herstelling. Machine én besturing van één leverancier.
 url: "https://werkhuizenbeckers.be"
 baseurl: ""
 lang: nl-BE
 markdown: kramdown
 permalink: pretty
 
-collections:
-  projects:
-    # Projecten staan voorlopig uit tot er B2B-referenties beschikbaar zijn.
-    # Weer inschakelen: zet output op true, herstel de Projecten-links in
-    # _includes/header.html en _includes/footer.html, en maak projecten.md opnieuw
-    # aan (layout: projects, permalink: /projecten/).
-    output: false
-    permalink: /projecten/:name/
-
 defaults:
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: project
-      seo_type: CreativeWork
   - scope:
       path: ""
     values:
@@ -37,7 +23,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  - scripts
 
 plugins:
   - jekyll-sitemap
