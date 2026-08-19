@@ -32,11 +32,11 @@ description: Werkhuizen Beckers — technische partner voor industrie en machine
         <h2>Kennis en attesten</h2>
       </div>
       <p class="section-lead">
-        Enkel wat effectief behaald en geldig is — geen claims die niet hard te maken zijn.
+        De kennis en geldige attesten die achter elk project zitten.
       </p>
     </div>
 
-    <div class="card-grid">
+    <div class="card-grid card-grid-2">
       <article class="info-card">
         <h3>Veiligheid op de werf</h3>
         <p>Geldige attesten voor veilig werken bij industriële klanten:</p>
@@ -48,7 +48,7 @@ description: Werkhuizen Beckers — technische partner voor industrie en machine
       </article>
 
       <article class="info-card">
-        <h3>Machineveiligheidstechnologie</h3>
+        <h3>Machineveiligheid</h3>
         <p>Risicoanalyse en toepassing van de geldende richtlijnen. De veiligheidsoplossing schalen we naar het risico: van een safety-PLC (Beckhoff TwinSAFE, Pilz) tot eenvoudige veiligheidscontactoren wanneer dat volstaat — meegenomen tijdens ontwerp en retrofit.</p>
       </article>
 

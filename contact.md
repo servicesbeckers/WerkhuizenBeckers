@@ -6,6 +6,14 @@ permalink: /contact/
 description: Contacteer Werkhuizen Beckers voor een technische vraag of offerte over onderhoud, retrofit of machinebouw.
 ---
 
+### Snel aanmelden
+
+Weinig tijd? Laat gewoon uw e-mailadres achter — wij nemen contact met u op.
+
+{% include lead-form.html %}
+
+---
+
 ### Rechtstreeks contact
 
 **E-mail**  

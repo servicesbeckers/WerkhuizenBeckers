@@ -68,30 +68,35 @@ description: Werkhuizen Beckers vertrekt vanuit uw probleem, niet vanuit een opl
       </p>
     </div>
 
-    <div class="card-grid">
-      <article class="info-card">
+    <div class="disciplines">
+      <article class="discipline">
+        <span class="discipline-num">01</span>
         <h3>Laswerk &amp; constructie</h3>
-        <p>Maatwerk in staal, inox en aluminium: dragende constructies, frames, steunen en precisieherstellingen. De basis onder alles wat we bouwen.</p>
+        <p>Maatwerk in staal, inox en aluminium: constructies, frames en precisieherstellingen.</p>
       </article>
 
-      <article class="info-card">
-        <h3>Onderhoud &amp; herstelling van machineparken</h3>
-        <p>Ook het zware, invasieve werk: een vastgelopen of beschadigde machine volledig oplassen, mechanisch én elektrisch opnieuw uitlijnen en instellen, en daarna terug in productie brengen met de juiste software.</p>
+      <article class="discipline">
+        <span class="discipline-num">02</span>
+        <h3>Onderhoud &amp; herstelling</h3>
+        <p>Van preventief onderhoud tot invasief herstel van een vastgelopen machinepark.</p>
       </article>
 
-      <article class="info-card">
+      <article class="discipline">
+        <span class="discipline-num">03</span>
         <h3>CAD-ontwerp</h3>
-        <p>3D-ontwerp en engineering — als onderdeel van een groter project of als losstaande opdracht wanneer u enkel het ontwerp nodig heeft.</p>
+        <p>3D-ontwerp en engineering, als deel van een project of losstaand.</p>
       </article>
 
-      <article class="info-card">
-        <h3>PLC-, HMI- &amp; softwareprogrammatie</h3>
-        <p>Van de besturing van PLC en HMI tot volwaardige computerprogramma's — de intelligentie die de machine laat doen wat ze moet doen.</p>
+      <article class="discipline">
+        <span class="discipline-num">04</span>
+        <h3>PLC, HMI &amp; software</h3>
+        <p>De besturing en programma's die de machine laten doen wat ze moet.</p>
       </article>
 
-      <article class="info-card">
-        <h3>Machinebouw: nieuw én retrofit</h3>
-        <p>Volledig nieuwe machines vanaf nul, of bestaande installaties gericht moderniseren met een nieuwe besturing, aandrijving of veiligheidsniveau.</p>
+      <article class="discipline">
+        <span class="discipline-num">05</span>
+        <h3>Machinebouw &amp; retrofit</h3>
+        <p>Volledig nieuwe machines of gerichte modernisering van bestaande installaties.</p>
       </article>
     </div>
 
@@ -173,17 +178,13 @@ description: Werkhuizen Beckers vertrekt vanuit uw probleem, niet vanuit een opl
 <section class="cta-section">
   <div class="container cta-box">
     <div>
-      <p class="eyebrow">Contact</p>
-      <h2>Leg uw probleem op tafel</h2>
-      <p>
-        Beschrijf uw storing, installatie of project. Wij bekijken samen wat technisch de beste aanpak is —
-        voor mechanica én besturing.
-      </p>
+      <p class="eyebrow">Meer info</p>
+      <h2>Laat uw e-mail of telefoonnummer achter, wij nemen contact op</h2>
+      <p class="cta-alt">Liever meteen bellen of mailen? <a href="{{ '/contact/' | relative_url }}">Bekijk alle contactgegevens</a>.</p>
     </div>
 
-    <div class="cta-actions">
-      <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Neem contact op</a>
-      <a class="button button-text" href="mailto:info@werkhuizenbeckers.be">info@werkhuizenbeckers.be</a>
+    <div>
+      {% include lead-form.html %}
     </div>
   </div>
 </section>
