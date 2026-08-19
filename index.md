@@ -1,40 +1,56 @@
 ---
 layout: home
 title: Home
-description: Werkhuizen Beckers is uw B2B-partner voor laswerk en constructie, CAD-engineering met Autodesk Inventor, machinebouw en automatisatie, en zwaar onderhoud — machine én besturing van één leverancier.
+description: Werkhuizen Beckers vertrekt vanuit uw probleem, niet vanuit een oplossing uit de catalogus. Analyseren, ontwerpen, uitvoeren — laswerk, onderhoud, CAD, besturing en machinebouw in dezelfde hand.
 ---
 
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Werkhuizen Beckers · B2B</p>
-      <h1>Laswerk, engineering en machinebouw uit één hand.</h1>
+      <p class="eyebrow">Werkhuizen Beckers</p>
+      <h1>Probleem in, oplossing uit.</h1>
       <p class="hero-intro">
-        Uw technische partner voor de industrie: van laswerk en constructie over CAD-engineering en machinebouw
-        tot zwaar onderhoud. Omdat wij ook de besturing beheersen, komen machine én software van dezelfde partij —
-        u coördineert geen drie leveranciers.
+        Vertel ons niet meteen welke machine u wil — vertel ons welk probleem u wil oplossen.
+        Wij verkopen geen standaardmachines, maar een oplossing op maat van úw probleem. Eerst
+        analyseren, dan ontwerpen en tot slot uitvoeren — mechanica én besturing in dezelfde hand.
       </p>
 
       <div class="hero-actions">
-        <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Offerte aanvragen</a>
-        <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Bekijk de vier pijlers</a>
+        <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Leg uw probleem voor</a>
+        <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Bekijk wat we doen</a>
       </div>
-
-      <ul class="hero-points">
-        <li>VCA VOL</li>
-        <li>BA4 / BA5</li>
-        <li>Heftruck- &amp; hoogtewerkerattest</li>
-      </ul>
     </div>
 
     <div class="hero-panel">
       <div class="hero-card">
-        <span class="hero-card-label">Eén aanspreekpunt</span>
-        <h2>Mechanica en besturing samengebracht, niet na elkaar aan elkaar geknoopt.</h2>
+        <span class="hero-card-label">Onze werkwijze</span>
+        <h2>Geen kant-en-klare oplossing die er ongeveer op past.</h2>
         <p>
-          Van ontwerp en constructie tot programmatie en inbedrijfstelling — bij ons in dezelfde hand.
+          We ontrafelen eerst het echte probleem. Pas daarna bepalen we of het antwoord in staal,
+          in software of in beide zit — en bouwen we het.
         </p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="credo">
+  <div class="container credo-grid">
+    <div class="credo-item">
+      <span>01</span>
+      <strong>Vertrekken vanuit het probleem, niet de oplossing</strong>
+    </div>
+    <div class="credo-item">
+      <span>02</span>
+      <strong>Geen kant-en-klare oplossingen</strong>
+    </div>
+    <div class="credo-item">
+      <span>03</span>
+      <strong>Analyseren, ontwerpen, uitvoeren</strong>
+    </div>
+    <div class="credo-item">
+      <span>04</span>
+      <strong>Probleem in, oplossing uit</strong>
     </div>
   </div>
 </section>
@@ -43,43 +59,44 @@ description: Werkhuizen Beckers is uw B2B-partner voor laswerk en constructie, C
   <div class="container">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">De vier pijlers</p>
-        <h2>Vier disciplines, één technische partner</h2>
+        <p class="eyebrow">Wat we doen</p>
+        <h2>Vijf disciplines, één verantwoordelijke</h2>
       </div>
       <p class="section-lead">
-        Elke pijler staat op zich, maar wint aan waarde omdat constructie, engineering en besturing bij dezelfde
-        partij liggen — voor Maintenance, Production en Technical Managers die geen leveranciers willen coördineren.
+        Van een lasnaad tot een volledige besturing: omdat het allemaal onder één dak zit, kunnen we
+        de hele oplossing rond uw probleem bouwen in plaats van een stuk ervan.
       </p>
     </div>
 
-    <div class="card-grid pillars">
+    <div class="card-grid">
       <article class="info-card">
-        <span class="card-index">01 — Laswerken</span>
-        <h3>Laswerken &amp; constructie</h3>
-        <p>Maatwerk in staal, rvs en aluminium — MIG/MAG, TIG en elektrode. Frames, dragende constructies en herstellingen, van los stuk tot kleine serie.</p>
+        <h3>Laswerk &amp; constructie</h3>
+        <p>Maatwerk in staal, inox en aluminium: dragende constructies, frames, steunen en precisieherstellingen. De basis onder alles wat we bouwen.</p>
       </article>
 
       <article class="info-card">
-        <span class="card-index">02 — CAD</span>
-        <h3>CAD-engineering (Autodesk Inventor)</h3>
-        <p>CAD op maat, van enkele beugels tot een volledige machine in regie. 3D-ontwerp, productieklare tekeningen en reverse-engineering — los of als basis voor onze eigen machinebouw.</p>
+        <h3>Onderhoud &amp; herstelling van machineparken</h3>
+        <p>Ook het zware, invasieve werk: een vastgelopen of beschadigde machine volledig oplassen, mechanisch én elektrisch opnieuw uitlijnen en instellen, en daarna terug in productie brengen met de juiste software.</p>
       </article>
 
       <article class="info-card">
-        <span class="card-index">03 — Machinebouw</span>
-        <h3>Machinebouw &amp; automatisatie</h3>
-        <p>Nieuwe machines en productielijnen, van mechanisch ontwerp tot PLC/HMI-besturing, robotica en koppeling met uw bedrijfssoftware.</p>
+        <h3>CAD-ontwerp</h3>
+        <p>3D-ontwerp en engineering — als onderdeel van een groter project of als losstaande opdracht wanneer u enkel het ontwerp nodig heeft.</p>
       </article>
 
       <article class="info-card">
-        <span class="card-index">04 — Onderhoud</span>
-        <h3>Zwaar onderhoud &amp; herstelling</h3>
-        <p>Ingrijpende herstellingen: van een gebroken pers volledig mechanisch reviseren tot een zwaar gecrashte machine mechanisch, elektrisch én programmatisch weer operationeel maken. Geen routine-smeerbeurten.</p>
+        <h3>PLC-, HMI- &amp; softwareprogrammatie</h3>
+        <p>Van de besturing van PLC en HMI tot volwaardige computerprogramma's — de intelligentie die de machine laat doen wat ze moet doen.</p>
+      </article>
+
+      <article class="info-card">
+        <h3>Machinebouw: nieuw én retrofit</h3>
+        <p>Volledig nieuwe machines vanaf nul, of bestaande installaties gericht moderniseren met een nieuwe besturing, aandrijving of veiligheidsniveau.</p>
       </article>
     </div>
 
     <div class="section-actions">
-      <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Alle pijlers in detail</a>
+      <a class="button button-secondary" href="{{ '/diensten/' | relative_url }}">Alle diensten bekijken</a>
     </div>
   </div>
 </section>
@@ -89,42 +106,31 @@ description: Werkhuizen Beckers is uw B2B-partner voor laswerk en constructie, C
     <div class="section-heading">
       <div>
         <p class="eyebrow">Aanpak</p>
-        <h2>Een helder traject, geen verrassingen</h2>
+        <h2>Analyseren, ontwerpen, uitvoeren</h2>
       </div>
       <p class="section-lead">
-        Van technische analyse tot nazorg na inbedrijfstelling — u weet op elk moment wat er gebeurt en waarom.
+        Drie stappen, altijd in die volgorde. Zo weet u op elk moment waarom we doen wat we doen —
+        en betaalt u niet voor een oplossing die het probleem niet raakt.
       </p>
     </div>
 
-    <div class="steps-grid">
+    <div class="steps-grid steps-grid-3">
       <article class="step-card">
         <span class="step-number">01</span>
-        <h3>Analyse</h3>
-        <p>Technische opname van installatie, storing of vraag ter plaatse.</p>
+        <h3>Analyseren</h3>
+        <p>We komen ter plaatse, ontleden de installatie en de storing, en zoeken de vraag achter de vraag. Wat is het échte probleem?</p>
       </article>
 
       <article class="step-card">
         <span class="step-number">02</span>
-        <h3>Ontwerp &amp; offerte</h3>
-        <p>Concreet voorstel voor mechanica, besturing en planning.</p>
+        <h3>Ontwerpen</h3>
+        <p>Mechanica en besturing worden samen uitgewerkt tot één oplossing op maat, met een concrete offerte en planning.</p>
       </article>
 
       <article class="step-card">
         <span class="step-number">03</span>
-        <h3>Constructie &amp; programmatie</h3>
-        <p>Laswerk, montage en PLC/HMI-software door hetzelfde team.</p>
-      </article>
-
-      <article class="step-card">
-        <span class="step-number">04</span>
-        <h3>Inbedrijfstelling</h3>
-        <p>Testen, afstellen en opleveren op locatie.</p>
-      </article>
-
-      <article class="step-card">
-        <span class="step-number">05</span>
-        <h3>Nazorg</h3>
-        <p>Ondersteuning en onderhoud na oplevering.</p>
+        <h3>Uitvoeren</h3>
+        <p>Laswerk, montage, programmatie en inbedrijfstelling door hetzelfde team — tot het effectief en veilig draait, met nazorg erna.</p>
       </article>
     </div>
 
@@ -142,23 +148,23 @@ description: Werkhuizen Beckers is uw B2B-partner voor laswerk en constructie, C
         <h2>Minder coördinatie, meer verantwoordelijkheid</h2>
       </div>
       <p class="section-lead">
-        Wat een gewone lasser of constructeur niet kan: wij beheersen ook de besturing. Ligt machine én software
-        bij dezelfde partij, dan verdwijnt de discussie over wiens verantwoordelijkheid een probleem is.
+        Omdat we lassen, construeren, ontwerpen én programmeren onder één dak doen, kunnen we vertrekken
+        vanuit uw probleem zonder de oplossing op te splitsen over drie leveranciers die naar elkaar wijzen.
       </p>
     </div>
 
     <div class="feature-strip">
       <div class="feature-item">
-        <strong>Eén contactpersoon</strong>
-        <span>Van mechanisch ontwerp tot softwarematige inbedrijfstelling.</span>
+        <strong>Eén verantwoordelijke</strong>
+        <span>Van analyse tot inbedrijfstelling, mechanica en besturing in dezelfde hand.</span>
       </div>
       <div class="feature-item">
-        <strong>Geen overdrachtsproblemen</strong>
-        <span>Constructie en besturing worden samen ontworpen, niet na elkaar aangepast.</span>
+        <strong>Geen overdrachtsverlies</strong>
+        <span>Constructie en software worden samen ontworpen, niet achteraf op elkaar rechtgetrokken.</span>
       </div>
       <div class="feature-item">
-        <strong>Directe technische communicatie</strong>
-        <span>Heldere afspraken, realistische planning, geen marketingverhaal.</span>
+        <strong>Directe technische taal</strong>
+        <span>Heldere afspraken, realistische planning, geen verkooppraat.</span>
       </div>
     </div>
   </div>
@@ -168,9 +174,10 @@ description: Werkhuizen Beckers is uw B2B-partner voor laswerk en constructie, C
   <div class="container cta-box">
     <div>
       <p class="eyebrow">Contact</p>
-      <h2>Laswerk, machine of ingrijpend onderhoud?</h2>
+      <h2>Leg uw probleem op tafel</h2>
       <p>
-        Beschrijf uw situatie en wij bekijken samen wat technisch de beste aanpak is — voor mechanica én besturing.
+        Beschrijf uw storing, installatie of project. Wij bekijken samen wat technisch de beste aanpak is —
+        voor mechanica én besturing.
       </p>
     </div>
 

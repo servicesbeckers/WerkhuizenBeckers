@@ -1,24 +1,24 @@
 ---
 layout: content
 title: Over Werkhuizen Beckers
-intro: Industrieel ingenieur met een achtergrond in robotica, softwareontwikkeling en machinebouw.
+intro: De kennis, discipline en attesten achter Werkhuizen Beckers — en het uitgangspunt dat alles stuurt: vertrekken vanuit het probleem, niet vanuit een oplossing uit de catalogus.
 permalink: /over/
-description: Werkhuizen Beckers, opgericht door Lander Beckers, industrieel ingenieur Elektronica-ICT — technische partner voor industrie en machinebouw.
+description: Werkhuizen Beckers — technische partner voor industrie en machinebouw. Kennis en geldige attesten, met machine én besturing in dezelfde hand.
 ---
 
 <section class="section">
   <div class="container narrow">
     <div class="prose-block">
-      <h2>Achtergrond</h2>
+      <h2>Eén partner voor machine én besturing</h2>
       <p>
-        Werkhuizen Beckers BV is opgericht door <strong>Lander Beckers</strong>, industrieel ingenieur Elektronica-ICT (UHasselt),
-        gevestigd in Gingelom, Limburg.
+        Werkhuizen Beckers combineert las- en constructiewerk met automatisatie en software: robotica
+        (KUKA, ABB, FANUC), softwareontwikkeling (.NET/C#), PLC/HMI-programmatie, MES/ERP/database-integratie en
+        machinebouw. Die combinatie van mechanica en software is de reden waarom machine én besturing hier
+        als één geheel worden aangepakt, in plaats van als aparte disciplines.
       </p>
       <p>
-        De achtergrond ligt in automotive-robotica (KUKA, ABB, FANUC), .NET-softwareontwikkeling in C#, machinebouw voor
-        de productie, assemblage en test van elektronische componenten, MES/ERP/database-integratie, en las- en
-        constructiewerk. Die combinatie van mechanica en software is de reden waarom Werkhuizen Beckers machine én
-        besturing als één geheel aanpakt in plaats van als aparte disciplines.
+        Het uitgangspunt blijft steeds hetzelfde: <strong>vertrekken vanuit het probleem, niet vanuit een
+        oplossing uit de catalogus.</strong> Eerst analyseren, dan ontwerpen en tot slot uitvoeren.
       </p>
     </div>
   </div>
@@ -32,24 +32,29 @@ description: Werkhuizen Beckers, opgericht door Lander Beckers, industrieel inge
         <h2>Kennis en attesten</h2>
       </div>
       <p class="section-lead">
-        Enkel wat effectief behaald of aantoonbaar is — geen claims die niet hard te maken zijn.
+        Enkel wat effectief behaald en geldig is — geen claims die niet hard te maken zijn.
       </p>
     </div>
 
     <div class="card-grid">
       <article class="info-card">
         <h3>Veiligheid op de werf</h3>
-        <p>VCA VOL, BA4/BA5, heftruck- en hoogtewerkerattest.</p>
+        <p>Geldige attesten voor veilig werken bij industriële klanten:</p>
+        <ul class="cert-list">
+          <li>Heftruck</li>
+          <li>VCA VOL</li>
+          <li>BA4 (BA5)</li>
+        </ul>
       </article>
 
       <article class="info-card">
-        <h3>Machineveiligheid</h3>
-        <p>Kennis en ervaring in risicoanalyse, veiligheidsrelais en safety PLC's, toegepast bij ontwerp en retrofit.</p>
+        <h3>Machineveiligheidstechnologie</h3>
+        <p>Risicoanalyse en toepassing van de geldende richtlijnen. De veiligheidsoplossing schalen we naar het risico: van een safety-PLC (Beckhoff TwinSAFE, Pilz) tot eenvoudige veiligheidscontactoren wanneer dat volstaat — meegenomen tijdens ontwerp en retrofit.</p>
       </article>
 
       <article class="info-card">
         <h3>Automatisatie &amp; software</h3>
-        <p>PLC/HMI-programmatie, .NET/C#, MES/ERP/database-integratie, robotica (KUKA, ABB, FANUC).</p>
+        <p>PLC/HMI-programmatie, softwareontwikkeling (.NET/C#), MES/ERP/database-integratie, robotica (KUKA, ABB, FANUC).</p>
       </article>
 
       <article class="info-card">
