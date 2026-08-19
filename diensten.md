@@ -1,72 +1,68 @@
 ---
 layout: content
 title: Diensten
-intro: Vier pijlers — laswerk en constructie, CAD-engineering, machinebouw en zwaar onderhoud — telkens vanuit dezelfde technische partner, met besturing en machineveiligheid intern in huis.
+intro: Vijf disciplines onder één dak. Elk kan op zichzelf staan, maar samen laten ze ons vertrekken vanuit uw probleem en er de hele oplossing rond bouwen.
 permalink: /diensten/
-description: De vier pijlers van Werkhuizen Beckers — laswerken en constructie, CAD-engineering met Autodesk Inventor, machinebouw en automatisatie, en zwaar onderhoud en herstelling.
+description: Laswerk, onderhoud en herstelling van machineparken, CAD-ontwerp, PLC/HMI- en softwareprogrammatie, en machinebouw (nieuw én retrofit) van Werkhuizen Beckers.
 ---
 
 <section class="section">
   <div class="container">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">De vier pijlers</p>
-        <h2>Van los laswerk tot volledige productielijn</h2>
+        <p class="eyebrow">Wat we doen</p>
+        <h2>Vijf disciplines, één verantwoordelijke</h2>
       </div>
       <p class="section-lead">
-        Elke pijler kan op zich staan, maar wint aan waarde omdat constructie, engineering en besturing bij dezelfde partij liggen.
+        We verkopen geen kant-en-klaar product. We ontleden eerst uw probleem en zetten dan de juiste
+        disciplines in — soms één, vaak meerdere samen.
       </p>
     </div>
 
-    <div class="card-grid pillars">
-      <article class="info-card">
-        <span class="card-index">01 — Laswerken</span>
-        <h3>Laswerken &amp; constructie</h3>
-        <p>Maatwerk in staal, rvs en aluminium: frames, steunen, dragende constructies, herstellingen en kleine series. De laagdrempeligste manier om kennis te maken.</p>
-        <ul class="tech-list">
-          <li>Staal</li>
-          <li>RVS</li>
-          <li>Aluminium</li>
-          <li>MIG/MAG</li>
-          <li>TIG</li>
-          <li>Elektrode (BMBE)</li>
-        </ul>
+    <div class="capabilities">
+      <article class="capability">
+        <span class="capability-num">01</span>
+        <div>
+          <h3>Laswerk &amp; constructie</h3>
+          <p>Maatwerk in staal, inox en aluminium: dragende constructies, frames, steunen en precisieherstellingen. Van een enkel stuk tot een kleine serie.</p>
+          <p><span class="lead-note">De basis onder alles wat we bouwen</span> — en even goed inzetbaar als losstaande lasopdracht wanneer dat is wat u nodig heeft.</p>
+        </div>
       </article>
 
-      <article class="info-card">
-        <span class="card-index">02 — CAD</span>
-        <h3>CAD-engineering (Autodesk Inventor)</h3>
-        <p>CAD op maat van de klant, van enkele beugels tot een volledige machine op maat in regie. 3D-ontwerp en productieklare tekeningen — als losse dienst voor uw eigen productie, of als ontwerpbasis onder onze machinebouw en constructie. Ook reverse-engineering van bestaande onderdelen.</p>
-        <ul class="tech-list">
-          <li>Autodesk Inventor</li>
-          <li>3D-ontwerp</li>
-          <li>Productietekeningen</li>
-          <li>Reverse-engineering</li>
-        </ul>
+      <article class="capability">
+        <span class="capability-num">02</span>
+        <div>
+          <h3>Onderhoud &amp; herstelling van machineparken</h3>
+          <p>Van preventief onderhoud en snelle interventie bij storingen tot het zware, invasieve werk waar anderen afhaken.</p>
+          <p>Een vastgelopen of beschadigde machine wordt volledig opgelast, mechanisch én elektrisch opnieuw uitgelijnd en ingesteld, en daarna terug in productie gebracht met de juiste software. <span class="lead-note">Mechanica, elektriciteit en besturing in één ingreep</span>, zodat u niet drie partijen na elkaar hoeft te bellen.</p>
+        </div>
       </article>
 
-      <article class="info-card">
-        <span class="card-index">03 — Machinebouw</span>
-        <h3>Machinebouw &amp; automatisatie</h3>
-        <p>Nieuwe machines of productielijnen, van mechanisch ontwerp tot besturing en koppeling met uw bedrijfssoftware.</p>
-        <ul class="tech-list">
-          <li>PLC/HMI-programmatie</li>
-          <li>Robotica (KUKA, ABB, FANUC)</li>
-          <li>Aandrijftechniek</li>
-          <li>MES/ERP/database-integratie</li>
-        </ul>
+      <article class="capability">
+        <span class="capability-num">03</span>
+        <div>
+          <h3>CAD-ontwerp</h3>
+          <p>3D-ontwerp en engineering (Autodesk Inventor): van concept en berekening tot productieklare tekeningen.</p>
+          <p>Als onderdeel van een groter project, of <span class="lead-note">als losstaande opdracht</span> wanneer u enkel het ontwerp nodig heeft en de uitvoering elders gebeurt.</p>
+        </div>
       </article>
 
-      <article class="info-card">
-        <span class="card-index">04 — Onderhoud</span>
-        <h3>Zwaar onderhoud &amp; herstelling</h3>
-        <p>Ingrijpende revisies en herstellingen van bestaande installaties — het onderhoud dat technische kennis en constructiewerk vraagt. Denk aan een gebroken pers die volledig mechanisch gereviseerd wordt, of een zwaar gecrashte machine die we mechanisch, elektrisch én programmatisch weer operationeel maken — dat laatste net omdat de besturing bij ons in huis zit. Bewust <strong>geen</strong> routine-smeerbeurten of standaard preventieronden.</p>
-        <ul class="tech-list">
-          <li>Mechanische revisie</li>
-          <li>Crashherstel (mechanisch + elektrisch + software)</li>
-          <li>Retrofit &amp; modernisering</li>
-          <li>Nieuwe besturing/aandrijving</li>
-        </ul>
+      <article class="capability">
+        <span class="capability-num">04</span>
+        <div>
+          <h3>PLC-, HMI- &amp; softwareprogrammatie</h3>
+          <p>De besturing van PLC en HMI tot volwaardige computerprogramma's: de intelligentie die de machine laat doen wat ze moet doen.</p>
+          <p>Ervaring met Beckhoff, softwareontwikkeling (.NET/C#) en koppelingen naar uw bedrijfssoftware (MES, ERP, databases). <span class="lead-note">Machineveiligheid</span> ontwerpen we meteen mee en schalen we naar het risico: van een safety-PLC (Beckhoff TwinSAFE, Pilz) tot eenvoudige veiligheidscontactoren wanneer dat volstaat — niet achteraf bijgeplakt.</p>
+        </div>
+      </article>
+
+      <article class="capability">
+        <span class="capability-num">05</span>
+        <div>
+          <h3>Machinebouw: nieuw én retrofit</h3>
+          <p>Volledig nieuwe machines vanaf nul — van mechanisch ontwerp over constructie tot besturing en inbedrijfstelling.</p>
+          <p>Of <span class="lead-note">retrofit</span>: een bestaande installatie gericht moderniseren met een nieuwe besturing, aandrijving of veiligheidsniveau. Een langere levensduur zonder de kost van volledige vervanging.</p>
+        </div>
       </article>
     </div>
   </div>
@@ -76,39 +72,28 @@ description: De vier pijlers van Werkhuizen Beckers — laswerken en constructie
   <div class="container">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Wat de pijlers verbindt</p>
-        <h2>Besturing en machineveiligheid, intern in huis</h2>
+        <p class="eyebrow">De rode draad</p>
+        <h2>Waarom deze vijf samen sterker zijn</h2>
       </div>
       <p class="section-lead">
-        Het onderscheid met een klassieke lasser of constructeur: de besturing en de veiligheid horen er bij ons standaard bij, niet als uitbesteed werk.
+        Wie mechanica én besturing in dezelfde hand houdt, hoeft niet te discussiëren over wiens
+        verantwoordelijkheid een probleem is. Dat is precies waarom we ze niet opsplitsen.
       </p>
     </div>
 
-    <div class="card-grid">
-      <article class="info-card">
-        <h3>Software &amp; integratie</h3>
-        <p>PLC/HMI-programmatie, PC-koppelingen en integratie met MES/ERP-systemen en databases.</p>
-        <ul class="tech-list">
-          <li>PLC/HMI (Beckhoff)</li>
-          <li>.NET/C#</li>
-          <li>MES/ERP</li>
-        </ul>
-      </article>
-
-      <article class="info-card">
-        <h3>Machineveiligheid</h3>
-        <p>Risicoanalyse, veiligheidsrelais en safety PLC's, toegepast tijdens ontwerp, machinebouw en retrofit.</p>
-      </article>
-
-      <article class="info-card">
-        <h3>Robotica</h3>
-        <p>Integratie en programmatie van industriële robots, met ervaring uit de automotive-robotica.</p>
-        <ul class="tech-list">
-          <li>KUKA</li>
-          <li>ABB</li>
-          <li>FANUC</li>
-        </ul>
-      </article>
+    <div class="feature-strip">
+      <div class="feature-item">
+        <strong>Analyseren</strong>
+        <span>Eerst het échte probleem in kaart, vóór we over een oplossing praten.</span>
+      </div>
+      <div class="feature-item">
+        <strong>Ontwerpen</strong>
+        <span>Mechanica en software worden samen uitgewerkt tot één geheel op maat.</span>
+      </div>
+      <div class="feature-item">
+        <strong>Uitvoeren</strong>
+        <span>Bouwen, programmeren en in bedrijf stellen door hetzelfde team.</span>
+      </div>
     </div>
   </div>
 </section>
@@ -117,9 +102,10 @@ description: De vier pijlers van Werkhuizen Beckers — laswerken en constructie
   <div class="container cta-box">
     <div>
       <p class="eyebrow">Contact</p>
-      <h2>Welke pijler is voor u van toepassing?</h2>
+      <h2>Welke discipline is voor u van toepassing?</h2>
       <p>
-        Beschrijf uw stuk laswerk, ontwerp, machine of installatie — wij bekijken samen de meest logische aanpak.
+        Vaak weet u dat zelf nog niet — en dat hoeft ook niet. Beschrijf uw probleem, wij bepalen
+        samen welke aanpak het meeste oplevert.
       </p>
     </div>
 

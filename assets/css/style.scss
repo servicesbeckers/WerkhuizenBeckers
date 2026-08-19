@@ -2,18 +2,31 @@
 ---
 
 :root {
-    --graphite: #20262d;
-    --graphite-soft: #3a424c;
-    --rust: #d9661d;
-    --rust-strong: #b9540f;
-    --bg: #ffffff;
-    --bg-soft: #f4f5f6;
+    /* Merkkleuren — rechtstreeks uit de logo-SVG's (map AiGeneratedLogo) */
+    --steenblauw: #1f3a47;      /* woord "Werkhuizen" */
+    --steenblauw-diep: #142731;
+    --terracotta: #9a4a2f;      /* woord "Beckers" */
+    --terracotta-licht: #dc9370; /* accent / hoeken op donker */
+    --inkt: #1c1a16;
+    --zand: #efece6;
+    --papier: #faf7f2;
+    --creme: #f6f2ea;
+    --grijs: #5a5148;
+
+    /* Rollen — de rest van de stylesheet gebruikt deze namen */
+    --graphite: var(--steenblauw);
+    --graphite-soft: #2b4e5e;
+    --rust: var(--terracotta);
+    --rust-strong: #7d3a22;
+    --bg: var(--papier);
+    --bg-soft: var(--zand);
     --surface: #ffffff;
-    --text: var(--graphite);
-    --muted: #5b6570;
-    --line: rgba(32, 38, 45, 0.14);
-    --line-strong: rgba(32, 38, 45, 0.28);
+    --text: var(--inkt);
+    --muted: var(--grijs);
+    --line: rgba(31, 58, 71, 0.15);
+    --line-strong: rgba(31, 58, 71, 0.28);
     --container: 1200px;
+    --font-serif: "IBM Plex Serif", Georgia, serif;
 }
 
 *,
@@ -42,11 +55,18 @@ body {
     margin: 0;
     font-family: "Inter", system-ui, sans-serif;
     background:
-        repeating-linear-gradient(0deg, rgba(32, 38, 45, 0.035) 0, rgba(32, 38, 45, 0.035) 1px, transparent 1px, transparent 64px),
-        repeating-linear-gradient(90deg, rgba(32, 38, 45, 0.035) 0, rgba(32, 38, 45, 0.035) 1px, transparent 1px, transparent 64px),
+        repeating-linear-gradient(0deg, rgba(31, 58, 71, 0.04) 0, rgba(31, 58, 71, 0.04) 1px, transparent 1px, transparent 64px),
+        repeating-linear-gradient(90deg, rgba(31, 58, 71, 0.04) 0, rgba(31, 58, 71, 0.04) 1px, transparent 1px, transparent 64px),
         var(--bg);
     color: var(--text);
     line-height: 1.6;
+}
+
+h1,
+h2 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    letter-spacing: -0.01em;
 }
 
 img {
@@ -135,7 +155,8 @@ main {
 }
 
     .brand-copy strong {
-        font-size: 1rem;
+        font-family: var(--font-serif);
+        font-size: 1.05rem;
         line-height: 1.1;
         color: var(--graphite);
     }
@@ -378,6 +399,45 @@ main {
     color: var(--muted);
 }
 
+/* Credo — de ideologie als band */
+
+.credo {
+    background: var(--steenblauw-diep);
+    color: var(--creme);
+}
+
+.credo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    background: rgba(246, 242, 234, 0.14);
+    border: 1px solid rgba(246, 242, 234, 0.14);
+}
+
+.credo-item {
+    background: var(--steenblauw-diep);
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+    .credo-item span {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: var(--terracotta-licht);
+    }
+
+    .credo-item strong {
+        font-family: var(--font-serif);
+        font-weight: 600;
+        font-size: 1.18rem;
+        line-height: 1.25;
+        color: var(--creme);
+    }
+
 /* Sections */
 
 .section,
@@ -452,22 +512,12 @@ main {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.card-grid.pillars {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.card-index {
-    display: block;
-    margin-bottom: 0.9rem;
-    color: var(--rust-strong);
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 700;
-    font-size: 0.82rem;
-    letter-spacing: 0.06em;
-}
-
 .steps-grid {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.steps-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .projects-grid {
@@ -530,6 +580,85 @@ main {
     .feature-item strong {
         color: var(--graphite);
     }
+
+/* Capabilities — gestapelde dienstenlijst */
+
+.capabilities {
+    display: grid;
+    gap: 1.1rem;
+}
+
+.capability {
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    gap: 1.5rem;
+    padding: 1.75rem;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    border-left: 3px solid var(--rust);
+}
+
+    .capability-num {
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 700;
+        font-size: 1.1rem;
+        color: var(--rust-strong);
+    }
+
+    .capability h3 {
+        margin: 0 0 0.6rem;
+        font-size: 1.25rem;
+        line-height: 1.2;
+        color: var(--graphite);
+    }
+
+    .capability p {
+        margin: 0 0 0.6rem;
+        color: var(--muted);
+    }
+
+        .capability p:last-child {
+            margin-bottom: 0;
+        }
+
+    .capability p .lead-note {
+        color: var(--graphite);
+        font-weight: 600;
+    }
+
+@media (max-width: 620px) {
+    .capability {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+}
+
+/* Attesten-lijst (over-pagina) */
+
+.cert-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.9rem 0 0;
+    display: grid;
+    gap: 0.45rem;
+}
+
+    .cert-list li {
+        position: relative;
+        padding-left: 1.4rem;
+        color: var(--graphite);
+        font-weight: 600;
+    }
+
+        .cert-list li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.55em;
+            width: 8px;
+            height: 8px;
+            background: var(--rust);
+        }
 
 /* Tech / brand list (used on diensten page) */
 
@@ -910,16 +1039,6 @@ main {
     border-top: 1px solid var(--line);
 }
 
-    .footer-bottom p {
-        margin: 0;
-    }
-
-    .footer-legal {
-        margin-top: 0.5rem !important;
-        font-size: 0.8rem;
-        color: var(--muted);
-    }
-
 .empty-state {
     padding: 2rem;
     text-align: center;
@@ -949,7 +1068,8 @@ code {
 
     .card-grid,
     .projects-grid,
-    .gallery-grid {
+    .gallery-grid,
+    .credo-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -999,7 +1119,8 @@ code {
     .steps-grid,
     .projects-grid,
     .feature-strip,
-    .gallery-grid {
+    .gallery-grid,
+    .credo-grid {
         grid-template-columns: 1fr;
     }
 
