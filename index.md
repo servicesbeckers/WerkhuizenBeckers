@@ -180,10 +180,7 @@ description: Werkhuizen Beckers vertrekt vanuit uw probleem, niet vanuit een opl
     <div>
       <p class="eyebrow">Meer info</p>
       <h2>Laat uw e-mail achter, wij nemen contact op</h2>
-      <p>
-        Geen lang formulier. Laat gewoon uw e-mailadres na — dan contacteert Werkhuizen Beckers u voor een
-        vrijblijvend gesprek over uw probleem.
-      </p>
+      <p>Eén veld, vrijblijvend. Wij bellen u terug.</p>
       <p class="cta-alt">Liever meteen bellen of mailen? <a href="{{ '/contact/' | relative_url }}">Bekijk alle contactgegevens</a>.</p>
     </div>
 
