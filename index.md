@@ -179,7 +179,7 @@ description: Werkhuizen Beckers vertrekt vanuit uw probleem, niet vanuit een opl
   <div class="container cta-box">
     <div>
       <p class="eyebrow">Meer info</p>
-      <h2>Laat uw e-mail achter, wij nemen contact op</h2>
+      <h2>Laat uw e-mail of telefoonnummer achter, wij nemen contact op</h2>
       <p class="cta-alt">Liever meteen bellen of mailen? <a href="{{ '/contact/' | relative_url }}">Bekijk alle contactgegevens</a>.</p>
     </div>
 
