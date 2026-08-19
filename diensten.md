@@ -97,21 +97,3 @@ description: Laswerk, onderhoud en herstelling van machineparken, CAD-ontwerp, P
     </div>
   </div>
 </section>
-
-<section class="cta-section">
-  <div class="container cta-box">
-    <div>
-      <p class="eyebrow">Contact</p>
-      <h2>Welke discipline is voor u van toepassing?</h2>
-      <p>
-        Vaak weet u dat zelf nog niet — en dat hoeft ook niet. Beschrijf uw probleem, wij bepalen
-        samen welke aanpak het meeste oplevert.
-      </p>
-    </div>
-
-    <div class="cta-actions">
-      <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Neem contact op</a>
-      <a class="button button-text" href="{{ '/aanpak/' | relative_url }}">Bekijk onze aanpak</a>
-    </div>
-  </div>
-</section>

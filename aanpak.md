@@ -70,21 +70,3 @@ description: De aanpak van Werkhuizen Beckers — analyseren, ontwerpen, uitvoer
     </div>
   </div>
 </section>
-
-<section class="cta-section">
-  <div class="container cta-box">
-    <div>
-      <p class="eyebrow">Contact</p>
-      <h2>Klaar om de eerste stap te zetten?</h2>
-      <p>
-        De eerste stap is altijd analyseren. Beschrijf uw installatie of project, dan bekijken we samen
-        waar we beginnen.
-      </p>
-    </div>
-
-    <div class="cta-actions">
-      <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Neem contact op</a>
-      <a class="button button-text" href="{{ '/diensten/' | relative_url }}">Bekijk onze diensten</a>
-    </div>
-  </div>
-</section>

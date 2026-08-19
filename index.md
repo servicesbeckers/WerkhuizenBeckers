@@ -34,27 +34,6 @@ description: Werkhuizen Beckers vertrekt vanuit uw probleem, niet vanuit een opl
   </div>
 </section>
 
-<section class="credo">
-  <div class="container credo-grid">
-    <div class="credo-item">
-      <span>01</span>
-      <strong>Vertrekken vanuit het probleem, niet de oplossing</strong>
-    </div>
-    <div class="credo-item">
-      <span>02</span>
-      <strong>Geen kant-en-klare oplossingen</strong>
-    </div>
-    <div class="credo-item">
-      <span>03</span>
-      <strong>Analyseren, ontwerpen, uitvoeren</strong>
-    </div>
-    <div class="credo-item">
-      <span>04</span>
-      <strong>Probleem in, oplossing uit</strong>
-    </div>
-  </div>
-</section>
-
 <section class="section" id="diensten">
   <div class="container">
     <div class="section-heading">
@@ -171,20 +150,6 @@ description: Werkhuizen Beckers vertrekt vanuit uw probleem, niet vanuit een opl
         <strong>Directe technische taal</strong>
         <span>Heldere afspraken, realistische planning, geen verkooppraat.</span>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="cta-section">
-  <div class="container cta-box">
-    <div>
-      <p class="eyebrow">Meer info</p>
-      <h2>Laat uw e-mail of telefoonnummer achter, wij nemen contact op</h2>
-      <p class="cta-alt">Liever meteen bellen of mailen? <a href="{{ '/contact/' | relative_url }}">Bekijk alle contactgegevens</a>.</p>
-    </div>
-
-    <div>
-      {% include lead-form.html %}
     </div>
   </div>
 </section>

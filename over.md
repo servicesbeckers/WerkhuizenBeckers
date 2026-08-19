@@ -64,20 +64,3 @@ description: Werkhuizen Beckers — technische partner voor industrie en machine
     </div>
   </div>
 </section>
-
-<section class="cta-section">
-  <div class="container cta-box">
-    <div>
-      <p class="eyebrow">Contact</p>
-      <h2>Vragen over een specifiek project?</h2>
-      <p>
-        Neem contact op — we bekijken samen of en hoe we kunnen helpen.
-      </p>
-    </div>
-
-    <div class="cta-actions">
-      <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Neem contact op</a>
-      <a class="button button-text" href="{{ '/diensten/' | relative_url }}">Bekijk diensten</a>
-    </div>
-  </div>
-</section>
