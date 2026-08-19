@@ -6,7 +6,7 @@ permalink: /privacy/
 description: Privacyverklaring van Werkhuizen Beckers — welke persoonsgegevens we verwerken, waarom, en welke rechten u hebt onder de GDPR.
 ---
 
-*Laatst bijgewerkt: 10 augustus 2026.*
+*Laatst bijgewerkt: 19 augustus 2026.*
 
 ### Wie zijn wij?
 
@@ -17,19 +17,28 @@ Voor vragen over deze verklaring: [info@werkhuizenbeckers.be](mailto:info@werkhu
 
 ### Welke gegevens verwerken wij?
 
-Deze website bevat **geen contactformulier, geen tracking en geen cookies** die u volgen.
-Wij verwerken enkel de gegevens die u ons **zelf bezorgt** wanneer u contact opneemt:
+Deze website gebruikt **geen tracking en geen cookies** die u volgen. Wij verwerken enkel de gegevens die u
+ons **zelf bezorgt**:
 
-- Naam en bedrijfsnaam
-- E-mailadres en/of telefoonnummer
-- De inhoud van uw bericht of offerteaanvraag (bv. omschrijving van installatie, foto's, plannen)
+- **Aanmeldformulier** (de knop "Meld aan voor meer info"): enkel uw **e-mailadres**, dat u vrijwillig
+  achterlaat zodat wij contact met u kunnen opnemen.
+- **Rechtstreeks contact** (e-mail, telefoon): naam en bedrijfsnaam, e-mailadres en/of telefoonnummer, en de
+  inhoud van uw bericht of offerteaanvraag (bv. omschrijving van installatie, foto's, plannen).
+
+### Wie verwerkt uw aanmelding?
+
+De aanmeldingen via het formulier worden voor ons ontvangen en per e-mail bezorgd door **Web3Forms**, een
+externe formulierdienst die daarbij als verwerker optreedt. Er worden **geen gegevens op de website zelf
+opgeslagen**; uw e-mailadres komt rechtstreeks in onze mailbox terecht.
 
 ### Waarom verwerken wij die gegevens?
 
-Uitsluitend om uw vraag te beantwoorden, een offerte op te maken en de opdracht uit te voeren.
-De rechtsgrond is de uitvoering van een overeenkomst of onze legitieme belangen als onderneming (art. 6 GDPR).
-Wij gebruiken uw gegevens **niet** voor marketing en geven ze **niet door** aan derden, behalve waar dit
-wettelijk verplicht is of noodzakelijk voor de uitvoering van uw opdracht.
+Uitsluitend om met u contact op te nemen, uw vraag te beantwoorden, een offerte op te maken en de opdracht uit
+te voeren. De rechtsgrond is uw **toestemming** (die u geeft bij het aanmeldformulier), de uitvoering van een
+overeenkomst, of onze legitieme belangen als onderneming (art. 6 GDPR). U kunt uw toestemming op elk moment
+intrekken. Wij gebruiken uw gegevens **niet** voor marketing en geven ze **niet door** aan derden, behalve aan
+de hierboven genoemde verwerker of waar dit wettelijk verplicht of noodzakelijk is voor de uitvoering van uw
+opdracht.
 
 ### Hoe lang bewaren wij ze?
 
