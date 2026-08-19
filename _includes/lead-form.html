@@ -8,15 +8,24 @@
     <!-- Honeypot tegen bots: mensen zien dit niet, bots vullen het in -->
     <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
 
-    <div class="lead-form-row">
-        <label class="sr-only" for="lead-email">Uw e-mailadres</label>
-        <input class="lead-input" id="lead-email" type="email" name="email" required autocomplete="email" placeholder="uw@bedrijf.be">
-        <button class="button button-primary" type="submit">Meld aan voor meer info</button>
+    <p class="lead-hint">Laat een e-mailadres, een gsm-nummer, of beide achter — wat u het makkelijkst vindt.</p>
+
+    <div class="lead-fields">
+        <div>
+            <label class="sr-only" for="lead-email">Uw e-mailadres</label>
+            <input class="lead-input" id="lead-email" type="email" name="email" autocomplete="email" placeholder="uw@bedrijf.be">
+        </div>
+        <div>
+            <label class="sr-only" for="lead-phone">Uw gsm- of telefoonnummer</label>
+            <input class="lead-input" id="lead-phone" type="tel" name="telefoon" autocomplete="tel" placeholder="+32 4xx xx xx xx">
+        </div>
     </div>
+
+    <button class="button button-primary button-full" type="submit">Meld aan voor meer info</button>
 
     <label class="lead-consent">
         <input type="checkbox" name="toestemming" value="ja" required>
-        <span>Ik geef Werkhuizen Beckers toestemming om mij op dit e-mailadres te contacteren. Zie de <a href="{{ '/privacy/' | relative_url }}">privacyverklaring</a>.</span>
+        <span>Ik geef Werkhuizen Beckers toestemming om met mij contact op te nemen via de gegevens die ik achterlaat. Zie de <a href="{{ '/privacy/' | relative_url }}">privacyverklaring</a>.</span>
     </label>
 
     <p class="lead-status" role="status" aria-live="polite"></p>
@@ -30,8 +39,15 @@
         form.dataset.bound = '1';
         var status = form.querySelector('.lead-status');
         var btn = form.querySelector('button[type="submit"]');
+        var email = form.querySelector('input[name="email"]');
+        var phone = form.querySelector('input[name="telefoon"]');
         form.addEventListener('submit', function (e) {
             e.preventDefault();
+            if (email && phone && !email.value.trim() && !phone.value.trim()) {
+                status.className = 'lead-status is-error';
+                status.textContent = 'Laat minstens een e-mailadres of een gsm-nummer achter.';
+                return;
+            }
             status.className = 'lead-status is-busy';
             status.textContent = 'Bezig met verzenden…';
             if (btn) btn.disabled = true;

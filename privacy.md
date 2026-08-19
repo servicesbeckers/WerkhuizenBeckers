@@ -20,8 +20,8 @@ Voor vragen over deze verklaring: [info@werkhuizenbeckers.be](mailto:info@werkhu
 Deze website gebruikt **geen tracking en geen cookies** die u volgen. Wij verwerken enkel de gegevens die u
 ons **zelf bezorgt**:
 
-- **Aanmeldformulier** (de knop "Meld aan voor meer info"): enkel uw **e-mailadres**, dat u vrijwillig
-  achterlaat zodat wij contact met u kunnen opnemen.
+- **Aanmeldformulier** (de knop "Meld aan voor meer info"): uw **e-mailadres en/of telefoonnummer**, dat u
+  vrijwillig achterlaat zodat wij contact met u kunnen opnemen.
 - **Rechtstreeks contact** (e-mail, telefoon): naam en bedrijfsnaam, e-mailadres en/of telefoonnummer, en de
   inhoud van uw bericht of offerteaanvraag (bv. omschrijving van installatie, foto's, plannen).
 
